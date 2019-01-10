@@ -17,7 +17,7 @@ site.title : Jakob's Blog
   <ul class="tag-cloud">
 {% for tag in site.tags %}
   <li>
-  		<a href="{{ baseurl }}/tags#{{ tag[0] | slugize }}">
+  		<a href="{{ site.baseurl }}/tags#{{ tag[0] | slugize }}">
         {{ tag[0] }}
       </a>
   </li>
