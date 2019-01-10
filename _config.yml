@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-baseurl: /blogdemo-one
-url: "https://jaks6.github.io/blogdemo-one"
+baseurl: /jekyll-blog-demo
+url: "https://jaks6.github.io/jekyll-blog-demo"
 
-title: Jakob's Blog
+title: J's Blog
 
-description: A virtual proof that name is awesome!
+description: This is a minimal blog
