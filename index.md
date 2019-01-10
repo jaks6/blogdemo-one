@@ -1,3 +1,8 @@
+---
+site.title : Jakob's Blog
+---
+
+
 ## Post List
 
 <ul>
@@ -8,13 +13,11 @@
   {% endfor %}
 </ul>
 
-
 ## Tag list
+  <ul class="tag-cloud">
 {% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+<li>
+  <a href="{{ baseurl }}/tags#{{ tag[0] | slugize }}">
+        {{ tag[0] }}
+      </a>
   </ul>
-{% endfor %}
